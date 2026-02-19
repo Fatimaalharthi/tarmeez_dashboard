@@ -186,12 +186,13 @@ portfolio-optimizer-dashboard/
 ├── README.md
 │
 ├── /data
-│   └── cached_prices.csv
+│ └── cached_prices.csv
 │
 ├── /images
-│   ├── dashboard_overview.png
-│   ├── optimization_section.png
-│   └── correlation_heatmap.png
+│ ├── dashboard_overview.png
+│ ├── correlation_heatmap.png
+│ ├── optimization_section.png
+│ └── efficient_frontier.png
 
 ------------------------------------------------------------------------
 
