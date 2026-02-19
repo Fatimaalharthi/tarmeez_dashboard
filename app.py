@@ -19,7 +19,7 @@ except Exception:
 # =============================
 # Configuration
 # =============================
-APP_TITLE = "📈 Portfolio Optimizer & Risk Intelligence (Saudi + Global)"
+APP_TITLE = "Portfolio Optimizer & Risk Intelligence (Saudi + Global)"
 DATA_DIR = "data"
 CACHE_TTL_SECONDS = 60 * 60
 TRADING_DAYS = 252  # standard equities convention
@@ -259,7 +259,7 @@ def chart_drawdown(perf: pd.DataFrame) -> None:
 def main() -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
 
-    st.set_page_config(page_title=APP_TITLE, page_icon="📈", layout="wide")
+    st.set_page_config(page_title=APP_TITLE, layout="wide")
     st.title(APP_TITLE)
     st.caption(
         "This dashboard uses Yahoo Finance (via yfinance) to compare assets, evaluate risk, and explore optimized allocations."
@@ -339,7 +339,7 @@ def main() -> None:
     st.caption(f"Cached data exported to `{export_path}` for reproducibility.")
 
     # ---- Data quality (real analyst touch)
-    with st.expander("✅ Data Quality (coverage & availability)"):
+    with st.expander("Data Quality (coverage & availability)"):
         st.dataframe(
             quality.style.format({"Coverage %": "{:.1f}"}),
             use_container_width=True,
@@ -493,7 +493,7 @@ def main() -> None:
 """
     )
 
-    with st.expander("🔍 Raw price data (last 30 rows)"):
+    with st.expander("Raw price data (last 30 rows)"):
         st.dataframe(prices.tail(30), use_container_width=True)
 
 
