@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Data outputs (keep cached_prices.csv if you want it tracked)
+data/*.csv
+!data/cached_prices.csv
