@@ -1,4 +1,4 @@
-# Business Performance Intelligence Dashboard
+# Business Performance Dashboard
 
 ## Project Overview
 
