@@ -45,8 +45,7 @@ These observations demonstrate how interactive dashboards can help surface patte
 
 ## Live Dashboard Link
 
-The interactive dashboard can be accessed here:
-[(https://lookerstudio.google.com/s/iWrjxy-Ce8g)]
+The interactive dashboard can be accessed [Sample Superstore Dataset – Kaggle](https://lookerstudio.google.com/s/iWrjxy-Ce8g).
 
 ## Assumptions & Limitations
 
