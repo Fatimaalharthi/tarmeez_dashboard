@@ -45,6 +45,8 @@ The analysis highlights several observable patterns. Technology products tend to
 
 The interactive dashboard can be accessed [here](https://lookerstudio.google.com/s/iWrjxy-Ce8g)
 
+---
+
 ## Assumptions & Limitations
 
 The dataset represents example retail transactions rather than real business operations. Profit values reflect transaction-level results only and do not include additional operational costs. The analysis assumes the dataset is complete and consistent across all records.
