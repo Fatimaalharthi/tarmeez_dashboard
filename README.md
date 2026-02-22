@@ -2,9 +2,10 @@
 
 ## Project Overview
 
-This project presents an interactive business performance dashboard designed to analyze retail sales operations and profitability using transactional data. The objective of the dashboard is to transform raw business records into meaningful insights that support data-driven decision-making and provide a clear understanding of organizational performance.
+This project presents an interactive business performance dashboard developed to analyze retail sales data and evaluate overall operational performance. The goal of the dashboard is to organize transactional data into clear visual insights that help users understand revenue trends, profitability, and performance differences across products and regions.
 
-The dashboard delivers an executive-level view of key financial and operational metrics by combining summarized performance indicators with interactive visual analysis. It allows stakeholders to evaluate revenue trends, profitability patterns, and operational performance across product categories and geographic regions. The design emphasizes clarity, accessibility, and structured storytelling so that insights can be easily interpreted by both technical and non-technical users.
+The dashboard provides a structured overview of business activity through key performance indicators and supporting visualizations. By combining summarized metrics with interactive charts, the solution allows users to explore performance patterns and better understand how different business segments contribute to overall results.
+
 
 ---
 
@@ -16,38 +17,26 @@ The dashboard delivers an executive-level view of key financial and operational 
 
 ## Data Source
 
-The analysis is based on the **Sample Superstore dataset**, a publicly available dataset commonly used for business intelligence and analytics practice. The dataset simulates retail transaction data and contains detailed information related to orders, sales revenue, profit performance, product categories, customer segments, and regional markets.
+The analysis is based on the **Sample Superstore dataset**, a publicly available dataset commonly used for business intelligence and analytics practice. The dataset represents simulated retail transactions and includes information about orders, sales values, profit, product categories, customer segments, and geographic regions.
 
-The dataset includes order-level transactional records with associated financial metrics such as sales and profit, enabling realistic evaluation of business performance over time. Its structure supports the development of performance indicators and comparative analysis across regions and product segments.
+Dataset source:  
+[Sample Superstore Dataset – Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
-The dataset contains:
-
-- Order dates and transaction records  
-- Sales revenue and profit values  
-- Product categories and sub-categories  
-- Regional market performance  
-- Customer and order-level information  
-
-This structure allows realistic business performance analysis and KPI development.
+The dataset structure enables performance analysis over time as well as comparisons between categories and regions using financial metrics such as sales and profit.
 
 ---
 
-## Steps & Methodology
+The project began with connecting and reviewing the dataset in Google Looker Studio to confirm correct data types and aggregation behavior. Key performance indicators were defined to summarize business outcomes, including total sales, total profit, profit margin, total orders, and average order value.
 
-The project followed a structured analytical workflow beginning with data preparation and validation within Google Looker Studio. Data fields were reviewed to ensure appropriate data types and aggregation behavior, allowing accurate calculation of business metrics.
+A clear visual hierarchy guided the dashboard design. Summary indicators are presented at the top to provide an immediate overview, followed by a time-series visualization showing performance trends over time. Additional charts analyze results by product category and region to help explain differences in performance. A scatter visualization was included to explore the relationship between sales and profitability at the sub-category level. A detailed transaction table allows users to view the underlying records supporting the analysis.
 
-Key performance indicators were then defined to represent organizational outcomes, including total sales, total profit, profit margin, total orders, and average order value. These indicators were positioned at the top of the dashboard to provide an immediate overview of business health.
-
-A visual hierarchy was applied to guide interpretation. A time-series visualization was used to highlight performance trends over time, followed by category and regional analyses to explain performance drivers. A scatter visualization was implemented to examine the relationship between sales and profitability at a more detailed level, helping identify areas where high revenue does not necessarily produce strong margins. A detailed transaction table was included to provide transparency and allow validation of the underlying data.
-
-Interactive filters were incorporated to enable users to dynamically explore results by region, category, and time period, enhancing analytical flexibility and usability.
+Interactive filters were added to enable exploration of results by region, category, and date range, allowing users to adjust the analysis according to specific interests or questions.
 
 ## Key Insights
 
-The analysis reveals several important observations. Technology products demonstrate stronger profitability compared to other categories, while regional performance differences suggest variations in operational efficiency and market behavior. The dashboard also highlights instances where products with high sales volumes generate relatively lower profit margins, indicating potential opportunities for pricing optimization or cost management improvements.
+The dashboard highlights several observable patterns within the dataset. Technology products tend to show stronger profitability compared to other categories, while regional performance varies across markets. The analysis also shows that higher sales volumes do not always correspond to higher profit margins, suggesting differences in cost structure or discounting behavior across products.
 
-These insights illustrate how interactive dashboards can support strategic planning by connecting high-level performance indicators with detailed operational analysis.
-
+These observations demonstrate how visual analytics can help identify performance patterns and support further business investigation.
 
 ---
 
