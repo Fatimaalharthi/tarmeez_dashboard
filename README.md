@@ -10,6 +10,12 @@ The project was developed as part of a practical assessment for the Data Analyst
 
 ---
 
+### Dashboard Overview
+
+<img src=""C:\Users\ffati\Pictures\Screenshots\images\dashboard overview.png"" width="900">
+
+---
+
 ## Data Source
 
 The analysis uses the **Sample Superstore dataset**, a widely adopted public dataset commonly used for business intelligence and analytics training. The dataset simulates retail transactional data and includes information on orders, sales, profit, product categories, customer segments, and regional performance.
