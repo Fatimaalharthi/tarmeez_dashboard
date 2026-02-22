@@ -12,9 +12,8 @@ The project was developed as part of a practical assessment for the Data Analyst
 
 ### Dashboard Overview
 
-## Dashboard Overview
-
 <img src="images/dashboard_overview.png" width="900">
+
 ---
 
 ## Data Source
